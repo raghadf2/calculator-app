@@ -1,33 +1,39 @@
-Calculator Web Application
-This is a simple web-based calculator application built using HTML, CSS, and JavaScript. It supports basic arithmetic operations as well as some scientific functions.
+Calculator Web App
 
-Features
-Basic arithmetic operations: addition (+), subtraction (−), multiplication (×), division (÷), and percentage (%).
+A simple and clean web-based calculator with both basic and scientific functions, built using HTML, CSS, and JavaScript.
 
-Scientific functions: square root (√), power (^), square (x²), inverse (1/x), and sign toggle (±).
+✨ Features
 
-Clear (C) and delete (DEL) buttons for easy input management.
+- Basic arithmetic operations: addition, subtraction, multiplication, division, and percentage.
+- Scientific operations: square root (√), power (^), square (x²), inverse (1/x), and sign toggle (±).
+- Clear display, delete last input, and ✅ calculate result.
+- Responsive and user-friendly interface.
+- Service Worker included for offline support (PWA ready).
+- Simple and elegant UI with a custom signature.
 
-Responsive design for better usability on different devices.
+🚀 How to Use
 
-Service Worker registration for potential offline support (Progressive Web App ready).
+1. Open the `index.html` file in your web browser.
+2. Use the buttons to input numbers and operations.
+3. Click `=` to compute the result.
+4. Click `C` to clear the display.
+5. Click `DEL` to delete the last entered character.
+6. Click `Sci` button to toggle scientific operation buttons.
 
-Usage
-Click the number and operator buttons to input expressions.
+📁 Files
 
-Use the Sci button to toggle scientific function buttons.
+- `index.html` — The main HTML file containing the UI layout.
+- `style.css` — Stylesheet for styling the calculator interface.
+- `script.js` — JavaScript file handling calculator logic and interactivity.
+- `service-worker.js` — Service worker for enabling offline capabilities.
+- `manifest.json` — Web app manifest for PWA support.
 
-Press = to calculate the result.
+📸 Screenshot
 
-Use C to clear the entire display and DEL to delete the last input character.
+![Screenshot](Screenshot%20(56).png)
 
-Files
-index.html — Main HTML file containing the calculator layout.
+📝 Notes
 
-style.css — Stylesheet for the calculator’s appearance.
-
-script.js — JavaScript file handling calculator logic and interactions.
-
-manifest.json — Web app manifest for PWA features.
-
-service-worker.js — Service worker for caching and offline capabilities.
+- The calculator supports floating point calculations.
+- The scientific panel is toggled by the "Sci" button.
+- Service worker registration enables the app to be installed and work offline.
